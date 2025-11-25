@@ -12,6 +12,7 @@ import { NotificationToast } from './components/NotificationToast';
 import { TransactionFilters } from './components/TransactionFilters';
 import { SpendingInsights } from './components/SpendingInsights';
 import { ExportModal } from './components/ExportModal';
+import { RecurringTransactions } from './components/RecurringTransactions';
 import { SidebarStats } from './components/SidebarStats';
 import { NotificationCenter } from './components/NotificationCenter';
 import { FinancialInsights } from './components/FinancialInsights';
@@ -20,7 +21,7 @@ import { useTheme } from './contexts/ThemeContext';
 import { 
   LayoutDashboard, MessageSquare, FileBarChart, User, Menu, Printer, 
   Upload, Plus, TrendingUp, Bell, Settings, LogOut, Search, Download,
-  Sparkles, X, Target, List, Moon, Sun, PieChart
+  Sparkles, X, Target, List, Moon, Sun, PieChart, Repeat
 } from 'lucide-react';
 import { cn } from './lib/utils';
 
@@ -395,6 +396,20 @@ const App = () => {
               Transactions
             </motion.button>
             <motion.button
+              onClick={() => setActiveTab('recurring')}
+              whileHover={{ scale: 1.02, x: 4 }}
+              whileTap={{ scale: 0.98 }}
+              className={cn(
+                "w-full flex items-center px-4 py-3.5 rounded-xl transition-all font-medium duration-300",
+                activeTab === 'recurring' 
+                  ? 'bg-gradient-to-r from-blue-600 to-indigo-600 text-white shadow-lg shadow-blue-200 dark:shadow-blue-900/50' 
+                  : 'text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800'
+              )}
+            >
+              <Repeat size={20} className="mr-3" />
+              Recurring
+            </motion.button>
+            <motion.button
               onClick={() => setActiveTab('budgets')}
               whileHover={{ scale: 1.02, x: 4 }}
               whileTap={{ scale: 0.98 }}
@@ -502,6 +517,7 @@ const App = () => {
                 {activeTab === 'dashboard' && 'Financial Overview'}
                 {activeTab === 'insights' && 'Spending Insights'}
                 {activeTab === 'transactions' && 'Transaction History'}
+                {activeTab === 'recurring' && 'Recurring Transactions'}
                 {activeTab === 'budgets' && 'Budget Management'}
                 {activeTab === 'goals' && 'Savings Goals'}
               </h1>
@@ -509,6 +525,7 @@ const App = () => {
                 {activeTab === 'dashboard' && "Welcome back! Here's your financial health summary."}
                 {activeTab === 'insights' && 'Analyze your spending patterns and trends'}
                 {activeTab === 'transactions' && 'View and manage all your transactions'}
+                {activeTab === 'recurring' && 'Manage your regular income and expenses'}
                 {activeTab === 'budgets' && 'Track your spending against budgets'}
                 {activeTab === 'goals' && 'Monitor progress towards your financial goals'}
               </p>
@@ -582,6 +599,9 @@ const App = () => {
               />
               <TransactionList transactions={filteredTransactions.length > 0 ? filteredTransactions : transactions} />
             </div>
+          )}
+          {activeTab === 'recurring' && (
+            <RecurringTransactions onAddTransaction={handleAddTransaction} />
           )}
           {activeTab === 'budgets' && (
             <BudgetManager transactions={transactions} />
