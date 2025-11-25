@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 <div align="center">
 
 # 💰 Finance Mentor AI
@@ -14,21 +12,17 @@
 
 **A modern, feature-rich financial management platform with stunning animations, local ML-powered AI, and complete privacy.**
 
-[Features](#-features) • [Demo](#-demo) • [Installation](#-installation) • [Usage](#-usage) • [Tech Stack](#-tech-stack) • [Contributing](#-contributing)
 
-![Finance Mentor AI Dashboard](https://via.placeholder.com/1200x600/667eea/ffffff?text=Finance+Mentor+AI+Dashboard)
 
 </div>
 
 ---
 
-=======
 
 # Finance Mentor AI 💰
 
 A modern, AI-powered personal finance dashboard with intelligent insights, forecasting, and budget tracking.
 
-> > > > > > > 36fd70364c6bef6bbc3eaaded321c894344907a0
 
 ## ✨ Features
 
@@ -114,25 +108,6 @@ A modern, AI-powered personal finance dashboard with intelligent insights, forec
 
 ---
 
-## 🚀 Demo
-
-### Dashboard
-
-![Dashboard](https://via.placeholder.com/800x500/667eea/ffffff?text=Dashboard+View)
-
-### AI Chatbot
-
-![Chatbot](https://via.placeholder.com/800x500/a855f7/ffffff?text=AI+Chatbot)
-
-### Budget Manager
-
-![Budget Manager](https://via.placeholder.com/800x500/10b981/ffffff?text=Budget+Manager)
-
-### Savings Goals
-
-![Savings Goals](https://via.placeholder.com/800x500/f59e0b/ffffff?text=Savings+Goals)
-
----
 
 ## 📦 Installation
 
@@ -394,27 +369,19 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 ---
 
-## 💬 Support
-
-- 📧 Email: support@financementor.ai
-- 💬 Discord: [Join our community](https://discord.gg/financementor)
-- 🐦 Twitter: [@FinanceMentorAI](https://twitter.com/financementorai)
-- 📖 Docs: [Read the docs](https://docs.financementor.ai)
-
----
-
 ## ⭐ Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=yourusername/finance-mentor-ai&type=Date)](https://star-history.com/#yourusername/finance-mentor-ai&Date)
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=Vortex4047/finance-mentor&type=date&legend=top-left)](https://www.star-history.com/#Vortex4047/finance-mentor&type=date&legend=top-left)
 
 ---
 
 <div align="center">
 
-**Built with ❤️ and cutting-edge web technologies**
+**Built with ❤️ ~Vortex**
 
 _Making personal finance beautiful, one animation at a time_ ✨
 
-[⬆ Back to Top](#-finance-mentor-ai)
 
 </div>
