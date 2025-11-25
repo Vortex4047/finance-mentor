@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+
 <div align="center">
 
 # 💰 Finance Mentor AI
@@ -20,6 +22,14 @@
 
 ---
 
+=======
+
+# Finance Mentor AI 💰
+
+A modern, AI-powered personal finance dashboard with intelligent insights, forecasting, and budget tracking.
+
+> > > > > > > 36fd70364c6bef6bbc3eaaded321c894344907a0
+
 ## ✨ Features
 
 ### 🎨 **Beautiful, Unconventional Design**
@@ -40,7 +50,7 @@
 - **Anomaly Detection**: Identifies unusual transactions
 - **Context-Aware**: Analyzes your actual financial data
 
-### � *S*Comprehensive Dashboard**
+### � *S*Comprehensive Dashboard\*\*
 
 - **Real-time Health Score**: AI-calculated financial wellness (0-100)
 - **Interactive Charts**: Forecast and spending breakdown visualizations
@@ -107,15 +117,19 @@
 ## 🚀 Demo
 
 ### Dashboard
+
 ![Dashboard](https://via.placeholder.com/800x500/667eea/ffffff?text=Dashboard+View)
 
 ### AI Chatbot
+
 ![Chatbot](https://via.placeholder.com/800x500/a855f7/ffffff?text=AI+Chatbot)
 
 ### Budget Manager
+
 ![Budget Manager](https://via.placeholder.com/800x500/10b981/ffffff?text=Budget+Manager)
 
 ### Savings Goals
+
 ![Savings Goals](https://via.placeholder.com/800x500/f59e0b/ffffff?text=Savings+Goals)
 
 ---
@@ -273,8 +287,8 @@ Edit `lib/constants.ts`:
 
 ```typescript
 export const GRADIENTS = {
-  primary: 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)',
-  success: 'linear-gradient(135deg, #10b981 0%, #059669 100%)',
+  primary: "linear-gradient(135deg, #667eea 0%, #764ba2 100%)",
+  success: "linear-gradient(135deg, #10b981 0%, #059669 100%)",
   // Add your custom gradients
 };
 ```
@@ -286,11 +300,11 @@ Edit `lib/animations.ts`:
 ```typescript
 export const fadeInUp: Variants = {
   hidden: { opacity: 0, y: 40 },
-  visible: { 
-    opacity: 1, 
+  visible: {
+    opacity: 1,
     y: 0,
-    transition: { duration: 0.6, ease: [0.22, 1, 0.36, 1] }
-  }
+    transition: { duration: 0.6, ease: [0.22, 1, 0.36, 1] },
+  },
 };
 ```
 
@@ -399,7 +413,7 @@ This project is licensed under the **MIT License** - see the [LICENSE](LICENSE) 
 
 **Built with ❤️ and cutting-edge web technologies**
 
-*Making personal finance beautiful, one animation at a time* ✨
+_Making personal finance beautiful, one animation at a time_ ✨
 
 [⬆ Back to Top](#-finance-mentor-ai)
 
